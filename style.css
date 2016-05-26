@@ -1,0 +1,444 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#navigation {}
+
+.nav-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+body p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.428571429;
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.brand {
+    padding-top: 50px;
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: none;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.icon {}
+
+.dash {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.fa {
+    line-height: 40px;
+    color: black;
+    width: 40px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    left: 0px;
+    right: 0px;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    position: relative;
+    width: 100%;
+}
+
+#footer {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.peignot {
+    margin-top: 150px;
+}
+
+.letter {
+    margin-left: 0px;
+    margin-right: -100px;
+}
+
+.lisboa {
+    margin-top: 50px;
+}
+
+.cookbook {
+    margin-top: 350px;
+}
+
+.img-pad {
+    margin-bottom; 30px;
+}
+
+a img {
+    border: none;
+}
+
+.border {
+    border-color: black;
+    border-style: solid;
+}
+
+.border_bottom {
+    border-style: solid;
+    border-bottom: black;
+}
+
+.about-me p{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 0;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+
+.img-container {
+    height: 70%;
+}
+
+.subhead {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#logotype {
+    padding-left: 0px;
+    padding-top: 40px;
+}
+
+#nav-links {
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.navbar-header {
+    padding-top: 35px;
+}
+
+nav {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nav-right {
+    text-align: right;
+    background-color: hover: none;
+}
+
+.project-thumb {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px;
+    display: block;
+}
+
+.project-thumb img {
+    position: relative;
+}
+/*large screen*/
+
+@media screen and (-width: 640px) {}
+/*Mobile*/
+
+@media screen and (max-width: 640px) {}
+
+.navbar-toggle {
+    width: 100%;
+    color: black;
+    margin-right: 0px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}
+
+#logotype {
+    width: 100%;
+    -webkit-text-align: -webkit-left;
+    text-align: left;
+}
+
+#projects {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.project-title {
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.project-thumb {
+    padding-bottom: 0px;
+}
+
+.project-thumb img {
+    width: 100%;
+}
+
+.project_type {}
+
+.image-align {
+    padding-top: 250px;
+}
+
+.item-img-wrap img {
+    transition: all 200ms linear; // use prefix mixin for this CSS3 property
+}
+/* creates a new stacking context on the header */
+
+#row {
+    position: relative;
+}
+/* positions header-content at the bottom of header's context */
+
+#header-content {
+    position: absolute;
+    bottom: 0;
+}
+/*image hover white*/
+
+.item-img-wrap {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.item-img-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transition: all 700ms linear;
+}
+
+.item-img-overlay img:hover {
+    background-color: white;
+    opacity: .8;
+}
+
+.item-img-wrap:hover img {
+    transform: scale(1.1); // use prefix mixin for this CSS3 property
+}
+
+.item-img-wrap img {
+    transition: all 200ms linear; // use prefix mixin for this CSS3 property
+}
+
+.col-mid {
+    margin-top: 200px;
+}
+
+.col-bottom {
+    margin-top: 300px;
+}
+
+.col-height-low {}
+
+@media screen and (max-width: 768px) {
+    img .hidden-s {
+        display: none;
+    }
+}
+
+.hidden-xs {
+    display: none;
+}
+/* About */
+
+.about-me {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 70%;
+    margin: 0 auto;
+}
+/* About - Contact Form */
+
+.contact {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-box {
+    padding-top: 40px;
+}
+
+.form-top {
+    overflow: hidden;
+    padding: 0 25px 15px 25px;
+    background: #fff;
+    -moz-border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
+    text-align: left;
+}
+
+.form-top-left {
+    float: left;
+    width: 60%;
+    padding-top: 25px;
+}
+
+.form-top-left h3 {
+    margin-top: 0;
+}
+
+.form-top-right {
+    float: left;
+    width: 25%;
+    padding-top: 5px;
+    font-size: 66px;
+    color: #ddd;
+    line-height: 100px;
+    text-align: right;
+}
+
+.form-bottom {
+    padding: 25px 25px 30px 25px;
+    background: white;
+    -moz-border-radius: 0 0 4px 4px;
+    -webkit-border-radius: 0 0 4px 4px;
+    border-radius: 0 0 4px 4px;
+    text-align: left;
+}
+
+.form-bottom form textarea {
+    height: 100px;
+}
+
+.form-bottom form .input-error {
+    border-color: #ff3333;
+}
+
+.send {
+    background-color: #ffe6e6;
+}
+
+.project-title {
+    font-size: 1.9em;
+    text-transform: uppercase;
+}
+
+.project-img {
+    margin-bottom: 20px;
+}
+
+.fa,
+#nav-links a,
+#footer-social a,
+#footer-social a:active,
+#footer-social a:visited {
+    color: #ff3333;
+}
+/* Scroll to top */
+
+.scrollToTop {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 999999;
+    display: none;
+    opacity: 0.5;
+    @include prefix(transform, all 0.3s, webkit moz);
+}
+
+.scrollToTop:hover {
+    text-decoration: none;
+    opacity: 1;
+    color: grey;
+}
+
+a.active {
+    color: #ff3333;
+}
+
+a:active {
+    color: #ff3333;
+}
+
+a:hover {
+    color: #808080;
+    background-color: transparent;
+}
+
+nav a {
+    color: black;
+}
+
+.nav a:hover {
+    color: none;
+}
+
+.nav-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.onigiri {
+    padding-top: 20px;
+    width: 100%;
+    text-align: left;
+}
